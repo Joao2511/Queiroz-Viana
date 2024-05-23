@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #1A1A1A;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-left: 2.4px solid black;
+    border-radius: 60px;
+}
+
+header {
+    background-color: #1A1A1A;
+    display: flex;
+    width: 100%;
+    height: 200%;
+}
+
+section {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-bottom: 3.5px solid rgba(255, 0, 0, 0);
+}
+
+.logo {
+    width: 30%;
+    min-height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.logo img {
+    width: 353px;
+    height: 141px;
+    margin-left: 2.6%;
+}
+
+.menu {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    background-color: rgba(255, 200, 0, 0);
+}
+
+.menu nav {
+    width: 100%;
+    height: 25%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+.menu nav ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu nav ul li {
+    display: inline;
+    padding: 0px 2% 0px 1%;
+}
+
+.menu nav ul li a {
+    padding: 5 10%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.sociais {
+    background-color: #00ea1700;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+}
+
+.sociais button {
+    width: 20%;
+    border: none;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #00ea1700;
+    outline: none;
+}
+
+.sociais button:hover {
+    cursor: pointer;
+}
+
+.sociais button i {
+    font-size: 20px;
+}
+
+
+/* daqui pra baixo é tudo da tag main, pra cima é do header */
+
+.section1 {
+    display: flex;
+    background-image: url("src/Img/fundoSec1.png");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 625px;
+    color: white;
+}
+
+.section1 div {
+    background-color: rgba(255, 0, 0, 0);
+    margin-top: 5%;
+    height: 50%;
+}
+
+.section1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 2% 5%;
+    width: 100%;
+}
+
+.section1 h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0 0 3% 5%;
+    width: 100%;
+}
+
+.section1 h2 {
+    font-size: 20px;
+    font-weight: bold
+}
+
+.botaoWhat {
+    background-color: #1A1A1A;
+    height: 53px;
+    width: 520px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    color: white;
+    margin: 0 0 0 5%;
+}
+
+.botaoWhat:hover {
+    cursor: pointer;
+    color: white;
+    margin: 0 0 0 5%;
+}
+
+.botaoWhat:active {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    margin: 0 0 0 5%;
+}
+
+.section2 {
+    background-color: #1A1A1A;
+    min-height: 300px;
+    max-height: 816px;
+}
+
+.section2 h1 {
+    color: #023373;
+    font-size: 48px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+}
+
+.section2 div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3 {
+    height: 1000px;
+    background-color: #1A1A1A;
+    color: white;
+    align-items: center;
+}
+
+.textoTopo {
+    text-align: center;
+}
+
+.textoTopo h1 {
+    margin: 50px 0 0 0;
+}
+
+.textoTopo h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.textoTopo h2 {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0 8% 0 8%;
+    text-align: justify;
+    /* Justifica o texto */
+    margin: 0 auto;
+    /* Centraliza o texto */
+    max-width: 2000px;
+    /* Define uma largura máxima para centralizar corretamente */
+}
+
+.divPessoas {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 0 0 0;
+}
+
+.Pedro {
+    text-align: center;
+}
+
+.Pedro img {
+    width: 220px;
+    height: 220px;
+}
+
+.Pedro h1 {
+    font-size: 40px;
+}
+
+.Pedro p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 70px;
+}
+
+.Rafael {
+    text-align: center;
+}
+
+.Rafael img {
+    width: 220px;
+    height: 220px;
+}
+
+.Rafael h1 {
+    font-size: 40px;
+}
+
+.Rafael p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 70px;
+}
+
+.Carolina {
+    text-align: center;
+}
+
+.Carolina img {
+    width: 220px;
+    height: 220px;
+}
+
+.Carolina h1 {
+    font-size: 40px;
+}
+
+.Carolina p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 70px;
+}
+
+.divBotaoSec3 {
+    display: flex;
+    margin: 80px 0 0 0;
+    justify-content: center;
+}
+
+.botaoSec3 img {
+    height: 35px;
+    width: 35px;
+}
+
+.botaoSec3 {
+    background-color: #4e4e4e;
+    height: 53px;
+    width: 520px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    color: white;
+}
+
+.botaoSec3:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.botaoSec3:active {
+    cursor: pointer;
+    background-color: rgb(33, 68, 121);
+    color: white;
+}
+
+@media (max-width: 1336px) {
+    .Pedro img,
+    .Rafael img,
+    .Carolina img {
+        width: 180px;
+        height: 180px;
+    }
+    .Pedro h1,
+    .Rafael h1,
+    .Carolina h1 {
+        font-size: 26px;
+    }
+    .Pedro p,
+    .Rafael p,
+    .Carolina p {
+        font-size: 16px;
+        margin: 0 40px;
+    }
+    .textoTopo h1 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .textoTopo h2 {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 8% 0 8%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Pedro img,
+    .Rafael img,
+    .Carolina img {
+        width: 130px;
+        height: 130px;
+    }
+    .Pedro h1,
+    .Rafael h1,
+    .Carolina h1 {
+        font-size: 18.78px;
+    }
+    .Pedro p,
+    .Rafael p,
+    .Carolina p {
+        font-size: 14px;
+        margin: 0 20px;
+    }
+    .textoTopo h1 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+    .textoTopo h2 {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 8% 0 8%;
+    }
+}
+
+@media (max-width: 450px) {
+    .Pedro img,
+    .Rafael img,
+    .Carolina img {
+        width: 100px;
+        height: 100px;
+    }
+    .Pedro h1,
+    .Rafael h1,
+    .Carolina h1 {
+        font-size: 14px;
+    }
+    .Pedro p,
+    .Rafael p,
+    .Carolina p {
+        font-size: 11px;
+        text-align: center;
+        margin: 0 10px;
+    }
+    .textoTopo h1 {
+        font-size: 35px;
+    }
+    .textoTopo h2 {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0 8% 0 8%;
+    }
+    .divPessoas {
+        display: flex;
+        flex-direction: row;
+        margin: 35px 0 0 0;
+    }
+    .botaoSec3 {
+        background-color: #4e4e4e;
+        height: 30px;
+        width: 300px;
+        border-radius: 23px;
+        gap: 10px;
+    }
+    .botaoSec3 img {
+        height: 20px;
+        width: 20px;
+    }
+    .botaoSec3 h2 {
+        font-size: 12px;
+    }
+    .divBotaoSec3 {
+        display: flex;
+        margin: 50px 0 0 0;
+        justify-content: center;
+    }
+    .textoTopo h2 {
+        font-size: 15px;
+    }
+}
+
+.section4 {
+    min-height: 300px;
+    max-height: 529px;
+    background-color: #282A29;
+    text-align: center;
+    color: white;
+}
+
+.subSec4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divRow4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin: 5% 0% 5% 0%;
+    justify-content: center;
+}
+
+.imgSec4 {
+    width: 24%;
+    height: 24%;
+}
+
+.imgSec41 {
+    width: 24%;
+    height: 24%;
+}
+
+.imgSec42 {
+    width: 24%;
+    height: 24%;
+}
+
+.section5 {
+    height: 954px;
+}
+
+.section5 div {
+    background-color: red;
+}
+
+.section5 div h1 {
+    font-size: 32px;
+}
+
+.botaoWhat2 {
+    height: 60px;
+    background-color: #00EA17;
+    display: flex;
+    flex-direction: row;
+}
+
+.section6 {
+    height: 787px;
+    background-color: #1A1A1A;
+}
+
+.h1Sec6 {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 3% 0;
+}
+
+.divSec6 {
+    margin: 0 0 0 2%;
+}
+
+.section7 {
+    height: 927px;
+    background-color: #242A40;
+}
+
+.fundoContato {
+    height: 651px;
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.fundoSubContato {
+    background-color: #1A1A1A;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    background-color: #1A1A1A;
+    height: 241px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    color: white;
+}
+
+.contentFooter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* Adicionado para garantir que a largura do conteúdo seja 100% */
+}
+
+.logoFooter {
+    width: 33.3%;
+    min-height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: red;
+}
+
+.logoFooter img {
+    max-width: 353px;
+    min-width: 150px;
+    max-height: 141px;
+    min-height: 100px;
+    margin-left: 2.6%;
+}
+
+.contatoFooter {
+    display: flex;
+    width: 33.3%;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contatoFooter h1 {
+    font-size: 20px;
+}
+
+.contatoFooter h2 {
+    font-size: 16px;
+}
+
+.endereco {
+    display: flex;
+    width: 33.3%;
+    background-color: blue;
+    align-items: center;
+    flex-direction: column;
+}
+
+.endereco h1 {
+    font-size: 20px;
+}
+
+.endereco h2 {
+    font-size: 16px;
+}
+
+.copyFooter {
+    background-color: #1A1A1A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
