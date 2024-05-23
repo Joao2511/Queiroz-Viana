@@ -6,7 +6,7 @@ function mudaTamanho() {
   var screenHeight = screen.height;
   var screenWidth = screen.width;
   if(windowWidth <= 768 && windowHeight <= 1024){
-    alert("MOBILE");
+    // alert("MOBILE");
   }
   console.log("JANELA:" + windowWidth + 'x' + windowHeight + "\n");
   console.log("TELA:" + screenWidth  + 'x' + screenHeight+ "\n");

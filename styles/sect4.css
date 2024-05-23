@@ -1,0 +1,37 @@
+.section4 {
+    min-height: 300px;
+    max-height: 529px;
+    background-color: #282A29;
+    text-align: center;
+    color: white;
+}
+
+.subSec4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divRow4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin: 5% 0% 5% 0%;
+    justify-content: center;
+}
+
+.imgSec4 {
+    width: 24%;
+    height: 24%;
+}
+
+.imgSec41 {
+    width: 24%;
+    height: 24%;
+}
+
+.imgSec42 {
+    width: 24%;
+    height: 24%;
+}

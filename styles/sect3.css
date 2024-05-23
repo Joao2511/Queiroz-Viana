@@ -1,0 +1,228 @@
+.section3 {
+    height: 1000px;
+    background-color: #1A1A1A;
+    color: white;
+    align-items: center;
+}
+
+.textoTopo {
+    text-align: center;
+}
+
+.textoTopo h1 {
+    margin: 50px 0 0 0;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.textoTopo h2 {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0 8% 0 8%;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 2000px;
+}
+
+.divPessoas {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 0 0 0;
+}
+
+.Pedro, .Rafael, .Carolina {
+    text-align: center;
+}
+
+
+.Pedro img, .Rafael img, .Carolina img {
+    width: 220px;
+    height: 220px;
+}
+
+
+.Rafael h1, .Carolina h1, .Pedro h1 {
+    font-size: 30px;
+}
+
+.Rafael p, .Carolina p, .Pedro p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 40px;
+    background-color: red;
+}
+
+.divBotaoSec3 {
+    display: flex;
+    margin: 80px 0 0 0;
+    justify-content: center;
+}
+
+.botaoSec3 img {
+    height: 35px;
+    width: 35px;
+}
+
+.botaoSec3 {
+    background-color: #4e4e4e;
+    height: 53px;
+    width: 520px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    color: white;
+}
+
+.botaoSec3:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.botaoSec3:active {
+    cursor: pointer;
+    background-color: rgb(33, 68, 121);
+    color: white;
+}
+
+@media (max-width: 1331px) {
+    .textoTopo h1 {
+        margin: 50px 0 0 0;
+        font-size: 44px;
+        font-weight: 600;
+    }
+    
+    .textoTopo h2 {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 8% 0 8%;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 2000px;
+    }
+}
+@media (max-width: 1336px) {
+    .Rafael p, .Carolina p, .Pedro p {
+        font-size: 18px;
+        text-align: center;
+        margin: 0 20px;
+        background-color: red;
+    }
+}
+@media (max-width: 1019px) {
+    .textoTopo h1 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    .textoTopo h2 {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0 8% 0 8%;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 2000px;
+    }
+    .Pedro img, .Rafael img, .Carolina img {
+        width: 180px;
+        height: 180px;
+    }
+    .Rafael h1, .Carolina h1, .Pedro h1 {
+        font-size: 25px;
+    }
+    
+    .Rafael p, .Carolina p, .Pedro p {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 40px;
+        background-color: red;
+    }
+    .divBotaoSec3 {
+        display: flex;
+        margin: 80px 0 0 0;
+        justify-content: center;
+    }
+    
+    .botaoSec3 img {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .botaoSec3 {
+        height: 44px;
+        width: 520px;
+        border-radius: 23px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 863px) {
+    .Rafael p, .Carolina p, .Pedro p {
+        font-size: 14px;
+        text-align: center;
+        margin: 0 40px;
+        background-color: red;
+    }
+    .divBotaoSec3 {
+        display: flex;
+        align-items: center;
+        margin: 20px 0 0 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 688px) {
+    .textoTopo h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .textoTopo h2 {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0 8% 0 8%;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 2000px;
+    }
+    .Pedro img, .Rafael img, .Carolina img {
+        width: 140px;
+        height: 140px;
+    }
+    .Rafael h1, .Carolina h1, .Pedro h1 {
+        font-size: 22px;
+    }
+    .Rafael p, .Carolina p, .Pedro p {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 5px;
+        background-color: red;
+    }
+    .divBotaoSec3 {
+        display: flex;
+        margin: 20px 0 0 0;
+        justify-content: center;
+    }
+    
+    .botaoSec3 img {
+        height: 25px;
+        width: 25px;
+    }
+    
+    .botaoSec3 {
+        height: 35px;
+        width: 470px;
+        border-radius: 23px;
+        gap: 10px;
+    }
+}
+@media (max-width: 688px) {
+    .divPessoas {
+        display: flex;
+        flex-direction: column;
+        margin: 70px 0 0 0;
+    }
+}
