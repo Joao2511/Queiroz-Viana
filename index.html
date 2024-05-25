@@ -1,114 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Queiroz Viana</title>
-  <link rel="stylesheet" href="/src/styles/header.css">
-  <link rel="stylesheet" href="/src/styles/sect1.css">
-  <link rel="stylesheet" href="/src/styles/sect2.css">
-  <link rel="stylesheet" href="/src/styles/sect3.css">
-  <link rel="stylesheet" href="/src/styles/sect4.css">
-  <link rel="stylesheet" href="/src/styles/sect5.css">
-  <link rel="stylesheet" href="/src/styles/sect6.css">
-  <link rel="stylesheet" href="/src/styles/sect7.css">
-  <link rel="stylesheet" href="/src/styles/footer.css">
-  <link rel="stylesheet" href="/src/styles/styles.css">
-
+  <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="src/Img/shorcuticon.jpeg" type="image/x-icon">
+  <title>Queiroz Viana</title>
 </head>
-
-
-
 <body>
   <header>
-    <div class="container">
+    <nav class="nav-bar">
       <div class="logo">
         <img src="src/Img/Logo1.png" alt="Queiroz Viana">
       </div>
-      <div class="menu">
-        <nav>
-          <ul>
-            <li><a href="#paginaPrincipal">Página Principal</a></li>
-            <li><a href="#areaAtuacao">Sobre João Vítor</a></li>
-            <li><a href="#quemSomos">Quem somos</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </nav>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a class="nav-link" href="#paginaPrincipal">Página Prinipal</a></li>
+          <li class="nav-item"><a class="nav-link" href="#areaAtuacao">Áreas de atuação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#quemSomos">Quem somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
       </div>
-      <div class="sociais">
-        <button onclick="location.href = '#contato'">
-          <img src="src/Img/what.png" alt="">
-        </button>
 
-        <button onclick="location.href = '#contato'">
-          <img src="src/Img/insta.png" alt="">
-        </button>
+      <div class="sociais-buttons">
+        <button><a href=""><img src="src/Img/what.png" alt=""></a></button>
+        <button><a target="_blank" href="https://www.instagram.com/vianaqueirozadvocacia/"><img src="src/Img/insta.png" alt=""></a></button>
+        <button><a href=""><img src="src/Img/email.png" alt=""></a></button>
+      </div>
 
-        <button onclick="location.href = '#contato'">
-          <img style="width: 40px;" src="src/Img/face.png" alt="">
-        </button>
-
-        <button onclick="location.href = '#contato'">
-          <img src="src/Img/email.png" alt="">
-        </button>
+      <div class="mobile-menu-icon">
+        <button onclick="mostrarMenu()"><img class="icon" src="src/Img/menu_white_36dp.svg" alt=""></button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a class="nav-link" href="#paginaPrincipal">Página Prinipal</a></li>
+        <li class="nav-item"><a class="nav-link" href="#areaAtuacao">Áreas de atuação</a></li>
+        <li class="nav-item"><a class="nav-link" href="#quemSomos">Quem somos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+      <div class="sociais-buttons">
+        <button><a href=""><img src="src/Img/what.png" alt=""></a></button>
+        <button><a target="_blank" href="https://www.instagram.com/vianaqueirozadvocacia/"><img src="src/Img/insta.png" alt=""></a></button>
+        <button><a href=""><img src="src/Img/email.png" alt=""></a></button>
       </div>
     </div>
   </header>
-
-
-
-
-
-
-
+  <!--Section 1-->
   <section id="paginaPrincipal" class="section1">
     <div class="containerSec1">
       <h1>Assessoria Jurídica Profissional<br> para Todos os Casos.</h1>
       <h4>Confiabilidade e expertise para lidar com uma ampla<br> gama de questões legais.</h3>
-
-
         <button class="botaoWhat">
           <img height="35" width="35" src="src/Img/what.png" alt="Whatsapp">
           <h2>Quero uma consulta sobre questões legais</h2>
         </button>
-
     </div>
   </section>
-
-
-
-
-
-
-
-
-
-
+  <!--Section 2-->
   <section id="areaAtuacao" class="section2">
+    <h1>Direito Administrativo</h1>
     <div>
-      <h1>Áreas de atuação</h1>
-      <img width="35%" height="35%" src="src/Img/Imagens.png" alt="">
+      <img src="src/Img/licitacao.png" alt="">
+      <img src="src/Img/contrato.png" alt="">
     </div>
   </section>
-
-
-
-
-
-
-
-
-
-
-
-
+  <!--Section 3-->
   <section id="quemSomos" class="section3">
     <div class="textoTopo">
       <h1>Quem somos</h1>
@@ -144,27 +106,15 @@
           questões éticas, conformidade regulatória e políticas.</p>
       </div>
     </div>
+
     <div class="divBotaoSec3">
       <button class="botaoSec3">
         <img src="src/Img/what.png" alt="Whatsapp">
         <h2>Quero uma consulta sobre questões legais</h2>
       </button>
     </div>
-
   </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <!--Section 4-->
   <section class="section4">
     <h1 style="padding: 2% 0 0 0; font-size: 32px;">Você já se deparou com alguma dessas circunstâncias?</h1>
     <div class="subSec4">
@@ -175,54 +125,43 @@
       </div>
     </div>
   </section>
-
-
-
-
-
-
-
-
-
-
-
+  <!--Section 5-->
   <section id="" class="section5">
     <div>
-      <h1>Entenda o passo a passo do nosso atendimento</h1>
-
+      <h1 style="font-weight: 800;">Entenda o passo a passo do nosso atendimento</h1>
       <h3>Nosso compromisso é garantir uma experiência organizada e
         transparente ao longo de todo o processo.
         Veja como funciona:
       </h3>
-
-      <h1><span style="font-weight: 900;">1 - Consulta Inicial: </span>Entre em contato conosco para agendar uma
+      <br>
+      <h1><span style="font-weight: 700;">1 - Consulta Inicial: </span>Entre em contato conosco para agendar uma
         consulta inicial.
         Durante esta reunião, você terá a oportunidade de compartilhar os detalhes do seu caso conosco.
       </h1>
-
-      <h1><span style="font-weight: 900;">2 - Avaliação Detalhada:</span> Durante a consulta, nosso advogado realizará
+      <br>
+      <h1><span style="font-weight: 700;">2 - Avaliação Detalhada:</span> Durante a consulta, nosso advogado realizará
         uma avaliação detalhada
         da sua situação. Esta etapa nos permite compreender completamente os desafios que você está enfrentando.
       </h1>
-
-      <h1><span style="font-weight: 900;">3 - Desenvolvimento de Estratégia:</span> Com base na avaliação, nosso
+      <br>
+      <h1><span style="font-weight: 700;">3 - Desenvolvimento de Estratégia:</span> Com base na avaliação, nosso
         advogado irá desenvolver uma
         estratégia personalizada para resolver seu caso. Este plano de ação servirá como um guia para as próximas
         etapas do processo.
       </h1>
-
-      <h1><span style="font-weight: 900;">4 - Ação Legal:</span> Uma vez que a estratégia esteja em vigor, avançaremos
+      <br>
+      <h1><span style="font-weight: 700;">4 - Ação Legal:</span> Uma vez que a estratégia esteja em vigor, avançaremos
         com as medidas legais necessárias
         para resolver o seu caso. Estaremos ao seu lado em cada etapa do processo, defendendo seus interesses com
         determinação e habilidade.
       </h1>
-
-      <h1><span style="font-weight: 900;">5 - Acompanhamento:</span> Mesmo após o encerramento do caso, estamos aqui
+      <br>
+      <h1><span style="font-weight: 700;">5 - Acompanhamento:</span> Mesmo após o encerramento do caso, estamos aqui
         para oferecer suporte contínuo
         e acompanhamento. Nossa prioridade é garantir sua satisfação e proteger seus direitos a longo prazo.
       </h1>
+      <br>
     </div>
-
 
     <div class="divBotaoSec3">
       <button class="botaoSec3">
@@ -230,28 +169,16 @@
         <h2>Quero uma consulta sobre questões legais</h2>
       </button>
     </div>
-
   </section>
-
-
-
-
-
-
-
-
-
-
-
-
+  <!--Section 6-->
   <section id="faq" class="section6">
     <h2 class="titulo">FAQ</h1>
+
       <div class="faq">
         <div class="pergunta">
           <h3>A estratégia será personalizada para as necessidades do meu caso?</h3>
           <img src="/src/Img/seta.png" alt="">
         </div>
-
         <div class="resposta">
           <p>• Sim, nossa equipe está comprometida em fornecer uma estratégia totalmente personalizada
             para atender às suas necessidades específicas. Durante uma consulta inicial, faremos uma análise
@@ -285,57 +212,57 @@
             garantindo sua total tranquilidade.</p>
         </div>
       </div>
-
-      </div>
   </section>
-
-
-
-
-
-
+  <!--Section 7-->
   <section id="contato" class="section7">
     <h1>Contato</h1>
     <div class="fundoContato">
-      <h1>Entre em contato conosco para<br>
-        discutir suas necessidades legais.<br>
-        Estamos aqui para ajudar e<br>
-        responderemos o mais rápido<br>
-        possível.
-      </h1>
-      <div class="fundoSubContato"></div>
-    </div>
+      <div class="container">
+        <div class="contact-info">
+            <h2>Entre em contato conosco para discutir suas necessidades legais. Estamos aqui para ajudar e responderemos o mais rápido possível.</h2>
+            <ul>
+                <li><img style="width: 25px;" src="src/Img/what.png" alt=""> (61) 91234-5678</li>
+                <li><img style="width: 25px;" src="src/Img/email.png" alt=""> seuemail@email.com</li>
+                <li><img style="width: 25px;" src="src/Img/location.png" alt=""> Seu Local, Rua, Número</li>
+                <li><img style="width: 25px;" src="src/Img/insta.png" alt=""> <a href="https://instagram.com/seu.instagram">@seu.instagram</a></li>
+            </ul>
+        </div>
+        <div class="contact-form">
+            <form>
+                <label for="name">Seu nome</label>
+                <input type="text" id="name" name="name" required>
+                <label for="message">Sua mensagem</label>
+                <textarea id="message" name="message" rows="4" required></textarea>             
+                <button onclick="enviarWhats()" type="button">Enviar uma mensagem</button>
+            </form>
+        </div>
   </section>
-
-  
+  <!--Scripts-->
   <script src="modules/screenSize.js"></script>
   <script src="modules/app.js"></script>
+  <!--Footer-->
+  <footer>
+    <div class="contentFooter">
+      <div class="logoFooter">
+        <img src="src/Img/Logo1.png" alt="">
+      </div>
 
-</body>
+      <div class="contatoFooter">
+        <h1>Entre em contato</h1>
+        <h2>Celular: (61) 91234-5678</h2>
+        <h2>E-mail: seuemail@email.com</h2>
+        <h2>Instagram: @seu.instagram</h2>
+        <h2></h2>
+      </div>
 
-<footer class="footer">
-  <div class="contentFooter">
-    <div class="logoFooter">
-      <img src="src/Img/Logo1.png" alt="">
+      <div class="endereco">
+        <h1>Endereço</h1>
+        <h2>Rua, Número, Sala Brasília, DF</h2>
+      </div>
     </div>
-
-    <div class="contatoFooter">
-      <h1>Entre em contato</h1>
-      <h2>Celular: (61) 91234-5678</h2>
-      <h2>E-mail: seuemail@email.com</h2>
-      <h2>Instagram: @seu.instagram</h2>
-      <h2></h2>
-    </div>
-
-    <div class="endereco">
-      <h1>Endereço</h1>
-      <h2>Rua, Número, Sala
-        Brasília, DF</h2>
-    </div>
+  </footer>
+  <div class="copyFooter">
+    <h4>© Copyright Queiroz Viana. Todos os direitos reservados.</h4>
   </div>
-</footer>
-<div class="copyFooter">
-  <h4>© Copyright Queiroz Viana. Todos os direitos reservados.</h4>
-</div>
-
+</body>
 </html>
